@@ -1,3 +1,5 @@
+package cprogramming;
+
 import java.util.Scanner;
 
 public class fact {
@@ -12,6 +14,7 @@ public class fact {
         fact = fact * i;
        }
        System.out.println(fact);
+       sc.close();
 
     }
 }
