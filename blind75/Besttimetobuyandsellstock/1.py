@@ -16,5 +16,19 @@ Output: 0
 
 Explanation: In this case, no transactions are made. Therefore, the maximum profit remains 0.'''
 
+arr = [10, 7, 5, 8, 11, 9]
 
+min_price = arr[0]
+min_profit = 0
+
+for price in arr:
+    if price < min_profit:
+        min_price = price
+
+    profit = price - min_price
+
+    if min_profit < profit:
+        min_profit = profit
+
+print(min_profit)
 
