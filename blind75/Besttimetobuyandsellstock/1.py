@@ -22,7 +22,8 @@ min_price = arr[0]
 min_profit = 0
 
 for price in arr:
-    if price < min_profit:
+    
+    if price < min_price:
         min_price = price
 
     profit = price - min_price
