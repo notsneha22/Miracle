@@ -8,9 +8,14 @@ int main () {
               
     for(int i = 0; i < n; i ++ ){
         for (int j = 0; j < n; j ++) {
+            if (arr[i] == arr[j]) {
+
+            
             c = c + 1;
+            printf("%d\n" ,arr[i],":", c);
+            }
         }
-        printf("%d\n" , c);
+        
     }
 
     return 0;
