@@ -16,6 +16,6 @@ int main () {
         }
 
     }
-    printf(count);
+    Printf(count);
     return 0;
 }
